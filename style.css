@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    
+}
+/* Nav Bar  */
+/* margin cero o auto centra el div right in the middle */
+
+.navbar {
+    background-color: #cccccc;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 950px;
+    margin: 0 auto; /* Center the navbar */
+    
+    
+}
+
+/* Style for the "Dojonary" heading */
+.navbar h1 {
+    font-size: 27px;
+    margin-left: 30px;
+    color: black;
+}
+
+/* Style for the search bar  */
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    width: 300px;
+    padding: 10px;
+    margin-right: 10px;
+    border: solid black;
+    
+}
+
+
+
+/* Container // ninja boxes */
+
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    
+}
+
+.row {
+    display: flex;
+}
+
+.col, .col-2 {
+    margin: 10px;
+    padding: 10px;
+    flex: 1;
+}
+
+.col {
+    justify-content: center;
+    
+}
+
+.col-2 {
+    flex: 2;
+}
+
+.flex-container {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-card, .card {
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    font-size: 15px;
+ 
+}
+
+.user-card {
+    display: flex;
+}
+
+.card-body {
+    padding: 20px;
+    width: 200px;
+    
+    
+}
+
+.card-body h1, 
+.card-body h2,
+.card-body h3,
+.card-body p {
+    margin: 10px 0px;
+}
+
+
+
+a {
+    color: #3a81e6;
+}
+
+
+.user-line {
+    
+    justify-content: center;
+    margin: 15px;
+    font-size: 32px;
+    display: flex;
+}
+
+/* Style Likes buttons */
+.likes{
+    box-shadow: 3px 4px 0px 0px #122433;
+    background-color: #fad966;
+    color: #040404;
+    border: solid black;
+    padding: 10px 20px;
+    margin-right: 30px;
+}
+
+.definition{
+    box-shadow: 3px 4px 0px 0px #122433;
+    background-color: #93c47e;
+    color: #040404;
+    border: solid black;
+    padding: 10px 20px;
+    margin-right: 30px;
+    width: 220px;
+    justify-content: center;
+}
+.likes, .definition, .login {
+
+    font-size: medium;
+
+}
+
+/* Style login button */
+.login {
+    box-shadow: 3px 4px 0px 0px #122433;
+    background-color: #3678e4;
+    color: #fff;
+    border: solid black;
+    padding: 10px 20px;
+    margin-right: 30px; 
+}
+
+#text {
+
+    margin-top: 30px;
+
+}
+
+
+
+
+
+

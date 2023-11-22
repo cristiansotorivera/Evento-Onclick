@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event OnClick</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i&display=swap">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue&family=Libre+Baskerville&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- nav bar -->
+    <nav class="navbar">
+        <h1>Dojonary</h1>
+        <div class="search-bar">
+            <input type="text" placeholder="Search">   
+        </div>
+        <!-- login logout button -->
+        <button class="login" onclick="turnOff(this)">Login</button>
+    </nav>
+    <!-- Container -->
+    <div class="container">
+        <div class="row">
+            <!-- left column -->
+            <div class="col-2">
+                <div class="user-card">
+                    
+                    <div class="card-body" >
+                        <h1>ninja</h1>
+                       
+                        <p> <em>Noun </em><br>
+                        Plural: <em>Ninjas</em></p>
+                        <button class="likes" onclick="likeButton('Ninja was liked')">13 Likes</button>
+                        <p>
+                            
+                            
+                        </p>
+                    </div>
+                    <div class="card-body" id="text">
+                        <p>
+                        A practitioner skilled in the <a href="#">
+                             
+                            Japanese
+                        </a> art of <a href="#">
+                             
+                            ninjutsu
+                        </a></p>
+                    </div>
+                </div>
+
+                <div class="user-card">
+                    
+                    <div class="card-body" >
+                        <h1>ninja</h1>
+                       
+                        <p><em>Noun </em><br>
+                        Plural: <em>Ninjas </em></p>
+                        <button class="likes" onclick="likeButton('Ninja was liked')">13 Likes</button>
+                        <p>
+                            
+                            
+                        </p>
+                    </div>
+                    <div class="card-body" id="text">
+                        <p>
+                        A <a href="#">
+                             
+                            programmer
+                        </a>who breaks down problems with <a href="#">
+                             
+                        zen
+                        </a>-like focus  </p>
+                       
+                        
+                        <p>
+                            
+                        </p>
+                    </div>
+                </div>
+
+                
+
+                
+                
+
+            </div>
+
+            <!-- right column -->
+            <div class="col">
+                
+                <div class="card">
+                    
+                    <div class="user-line">
+                        <p>Dojonary is defined by you</p>
+                    </div>
+                    <div class="user-line">
+                        <button onclick="hide(this)" class="definition" >Add Definition</button>
+                    </div>
+                   
+                </div>
+            </div>  
+        </div>
+    </div>
+ <script src="js/script.js"></script>   
+</body>
+</html>
